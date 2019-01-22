@@ -9,7 +9,6 @@ RUN yum upgrade -y
 RUN yum groupinstall -y "Development tools"
 RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 RUN yum install -y fedora-packager
-RUN yum clean all
 
 RUN useradd builder
 
