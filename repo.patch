@@ -1,0 +1,21 @@
+--- /etc/yum.repos.d/CentOS-SCLo-scl-rh.repo    2020-12-14 13:43:37.000000000 +0000
++++ scp.repo    2020-12-14 13:45:17.066770000 +0000
+@@ -18,12 +18,12 @@
+ enabled=0
+ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+ 
+-[centos-sclo-rh-source]
+-name=CentOS-7 - SCLo rh Sources
+-baseurl=http://vault.centos.org/centos/7/sclo/Source/rh/
+-gpgcheck=1
+-enabled=0
+-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
++#[centos-sclo-rh-source]
++#name=CentOS-7 - SCLo rh Sources
++#baseurl=http://vault.centos.org/centos/7/sclo/Source/rh/
++#gpgcheck=1
++#enabled=0
++#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+ 
+ [centos-sclo-rh-debuginfo]
+ name=CentOS-7 - SCLo rh Debuginfo
